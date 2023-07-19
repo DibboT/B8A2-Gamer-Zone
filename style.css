@@ -1,0 +1,465 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;;
+}
+
+.nav-container{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.logo-container{
+    display: flex;
+    gap: 15px;
+    margin-left: 80px;
+    width: 300px;
+
+    
+}
+
+.nav-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+    color:#0B0223;
+}
+
+.span{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    font-size: 2.5rem;
+    font-weight: 700;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.menu-container ul{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin: 10px auto;
+    
+}
+
+ul li{
+    list-style: none;
+    
+}
+
+
+.btn{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 15px 24px;
+}
+
+/* Banner Container Style */
+
+.banner-container{
+    width: 1200px;
+    height: 400px;
+    margin: 40px auto;
+    background: linear-gradient(#ffecf2);
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner-text-container{
+    width: 50%;
+    align-items:center;
+    padding: 10px;
+    
+}
+
+
+
+.banner-title{
+    color: #0B0223;
+    font-size: 2.7rem;
+    font-weight: 700;
+    align-items: center;
+}
+.banner-title1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3.5rem;
+    font-weight: bold;
+    align-items: center;
+
+}
+
+.banner-icon{
+    display: flex;
+    align-items: center;
+    margin: 0;
+
+}
+
+
+
+.banner-icon img{
+    width: 24px;
+    height: 24px;
+    margin-right: 15px;
+}
+
+.btn-signin{
+    background-color: #FF42A5;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 450;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 12px;
+    gap: 10px;
+    margin-top: 20px;
+}
+.btn-go{
+    background-color: #4EC5F7;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-weight: 450;
+    border-radius: 20px;
+    border-style: none;
+    padding: 10px 12px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.banner-photo-container{
+    background-image: url("/images/bannerphoto.png");
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    margin: 0px auto;
+}
+
+.banner-photo-container img{
+    width: 40%;
+    height: 500px;
+}
+
+/* Online Games Container Styles */
+
+.funny-games-container{
+    width: 1200px; 
+    margin: 0px auto;
+    text-align: center;
+
+}
+
+.funny-games-container h3{
+    font-size: 2.2rem;
+    color:#0B0223;
+    font-weight: 800px;
+
+}
+
+.game-image p{
+    color: #534C64;
+    margin-left: 10px;
+    width: 252px;
+    height: 200px;
+
+}
+
+.gameimg{
+
+    position: relative;
+
+}
+
+.game-image:hover{
+    opacity: 1;
+}
+
+.gameimg:hover{
+
+    transition: 1s;
+}
+
+
+.gameimg .hovericon{
+    opacity: 0;
+    transition: 500ms;
+    position: absolute;
+    left: calc(50% - 24px);
+    bottom: calc(50% - 24px);
+    width: 48px;
+    height: 48px;
+    background-color: #F948B2;
+
+}
+.gameimg .hovertext{
+    opacity: 0;
+    transition: 500ms;
+    position: absolute;
+    left: calc(50% - 24px);
+    bottom: calc(50% - 24px);
+    width: 48px;
+    height: 48px;
+
+}
+
+
+.gameimg:hover .hovericon{
+    opacity: 1;
+    transition: 500ms;
+
+}
+
+
+.title-text{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.games-image-container{
+    display: flex;
+    margin: 30px auto;
+    width: 1200px;
+    height: 40%;
+
+
+}
+
+.game-image{
+    width: 302px;
+    height: 400px;
+
+}
+
+.game-image img{
+    width: 270px;
+    height: 316px;
+    border-radius: 12px;
+}
+
+/* Display Banner Styles */
+
+.display-banner-container{
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.display-text-container{
+    width: 401px;
+    height: 280px;
+
+
+}
+
+.display-title{
+    font-size: 2.5rem;
+    width: 320px;
+    
+}
+
+.display-text-container p{
+    margin-top: 20px;
+}
+
+.display-heading{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.display-image{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+
+.display-side-image{
+    position: relative;
+    bottom: 300px;
+    right: 70px;
+
+}
+
+/* Second Display Banner Starts */
+
+.second-display-banner-container{
+    height: 1000px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.display-image1{
+    width: 50%;
+    padding-top: 100px;
+    padding-left: 30px;
+}
+
+.display-side-image1{
+    position: relative;
+    bottom: 220px;
+    left: 350px;
+
+}
+
+
+/* Icons Images Container Styles */
+
+.icons-container{
+    text-align: center;
+    background: linear-gradient(45deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+
+
+}
+
+.icon-image{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 40px;
+    padding-left: 10px;
+    padding-top: 30px;
+
+}
+
+.icon-image:hover{
+    border: 2px solid #FF42A5;
+    color: #FF42A5;
+    cursor: pointer;
+    
+}
+
+
+.imagehover{
+    background-color: #FFF;
+    border-radius: 50px;
+
+}
+
+
+.imagehover:hover{
+    color: #FF42A5;
+    cursor: pointer;
+}
+
+.icon-image p{
+    color: #0B0223;
+    font-size: 1.2rem;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.icon-iamge img{
+    border-radius: 10px;
+    background: white;
+    transition: color 0.5s;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+
+/* Footer Section Styles */
+
+.footer-container{
+    background-color: #0B0223;
+    width: 100%;
+    margin-top: 100px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: auto;
+    align-items: center;
+    
+}
+
+.footer-logo-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    column-gap: 10px;
+
+}
+.footer-title{
+    color: #FFF;
+    font-size: 2.5rem;
+    font-weight: 700;
+
+
+}
+
+
+.footer-menu ul{
+    display: flex;
+    justify-content:center;
+    gap: 15px;
+    margin-top: 20px;
+    column-gap: 20px;
+}
+
+.footer-menu li{
+    color: #FFF;
+
+}
+
+.footer-icons{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.footer-icons i{
+    font-size: 2rem;
+    padding-left: 20px;
+
+}
+
+.footer-text{
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    column-gap: 15px;
+}
+
+.copyright{
+    color: #FFF;
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
