@@ -156,11 +156,16 @@ ul li{
 
 }
 
-.funny-games-container h3{
-    font-size: 2.2rem;
+.funny-games-container .fg-title{
+    font-size: 2.5rem;
     color:#0B0223;
-    font-weight: 800px;
+    font-weight: bold;
 
+}
+
+.fg-subheading{
+    font-size: 2rem;
+    color: #0B0223;
 }
 
 .game-image p{
