@@ -1,7 +1,6 @@
 /* Mobile Device Responsive Style */
 @media screen and (max-width: 425px) {
 
-
     .nav-container{
         flex-direction: column;
         width: 400px;
@@ -11,7 +10,6 @@
         display: flex;
         gap: 15px;
         width: auto;
-
     }
 
 
@@ -54,13 +52,11 @@
         font-weight: bold;
         color: #0B0223;
         width: auto;
-
     }
 
 
     .btn-signin{
         font-size: 0.9rem;
-
     }
 
     .btn-go{

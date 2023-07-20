@@ -7,6 +7,8 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* Nav Container Styles */
+
 .nav-container{
     max-width: 1200px;
     display: flex;
@@ -19,8 +21,6 @@
     display: flex;
     gap: 15px;
     width: 300px;
-
-    
 }
 
 .nav-title{
@@ -42,19 +42,20 @@
     display: flex;
     align-items: center;
     gap: 15px;
-    margin: 10px auto;
-    
+    margin: 10px auto;  
 }
 
 ul li{
     list-style: none;
     
 }
+
 .btn{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 24px;
 }
+
 
 /* Banner Container Styles */
 
@@ -69,11 +70,11 @@ ul li{
     align-items: center;
 }
 
+
 .banner-text-container{
     width: 50%;
     align-items:center;
-    padding: 10px;
-    
+    padding: 10px;   
 }
 
 .banner-title{
@@ -91,14 +92,12 @@ ul li{
     font-size: 3.5rem;
     font-weight: bold;
     align-items: center;
-
 }
 
 .banner-icon{
     display: flex;
     align-items: center;
     margin: 0;
-
 }
 
 
@@ -167,7 +166,6 @@ ul li{
 }
 
 .gameimg{
-
     position: relative;
 }
 
@@ -176,7 +174,6 @@ ul li{
 }
 
 .gameimg:hover{
-
     transition: 1s;
 }
 
@@ -201,7 +198,6 @@ ul li{
     width: 48px;
     height: 48px;
 }
-
 
 .gameimg:hover .hovericon{
     opacity: 1;
@@ -326,8 +322,6 @@ ul li{
 }
 
 
-
-
 /* Icons Images Container Styles */
 
 .icons-container{
@@ -354,15 +348,13 @@ ul li{
 .icon-image:hover{
     border: 2px solid #FF42A5;
     color: #FF42A5;
-    cursor: pointer;
-    
+    cursor: pointer; 
 }
 
 
 .imagehover{
     background-color: #FFF;
     border-radius: 50px;
-
 }
 
 
@@ -413,8 +405,6 @@ ul li{
     color: #FFF;
     font-size: 2.5rem;
     font-weight: 700;
-
-
 }
 
 
