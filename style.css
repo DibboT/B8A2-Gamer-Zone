@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;700;800;900&display=swap');
 
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-    font-family: 'Work Sans', sans-serif;;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .nav-container{
@@ -50,23 +50,23 @@ ul li{
     list-style: none;
     
 }
-
-
 .btn{
     border-radius: 8px;
     background: rgba(11, 2, 35, 0.10);
     padding: 15px 24px;
 }
 
-/* Banner Container Style */
+/* Banner Container Styles */
 
 .banner-container{
-    width: 1200px;
+    max-width: 1200px;
+    width: 100%;
     height: 400px;
     margin: 40px auto;
-    background: linear-gradient(#ffecf2);
+    background: linear-gradient(223deg, rgba(140, 87, 238, 0.03) 0%, rgba(241, 68, 174, 0.03) 100%);
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .banner-text-container{
@@ -76,14 +76,13 @@ ul li{
     
 }
 
-
-
 .banner-title{
     color: #0B0223;
     font-size: 2.7rem;
     font-weight: 700;
     align-items: center;
 }
+
 .banner-title1{
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -103,7 +102,6 @@ ul li{
 }
 
 
-
 .banner-icon img{
     width: 24px;
     height: 24px;
@@ -121,6 +119,7 @@ ul li{
     gap: 10px;
     margin-top: 20px;
 }
+
 .btn-go{
     background-color: #4EC5F7;
     color: #FFF;
@@ -133,37 +132,30 @@ ul li{
     margin-top: 20px;
 }
 
-.banner-photo-container{
-    background-image: url("/B8A2-Gamer-Zone/images/bannerphoto.png");
-    background-size: cover;
-    background-position: center;
-    width: 40%;
-    margin: 0px auto;
-}
 
 .banner-photo-container img{
-    width: 40%;
-    height: 500px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
 }
 
-/* Online Games Container Styles */
+/* Funny Games Container Styles */
 
 .funny-games-container{
     width: 1200px; 
     margin: 0px auto;
     text-align: center;
-
 }
 
 .funny-games-container .fg-title{
     font-size: 2.5rem;
     color:#0B0223;
     font-weight: bold;
-
 }
 
 .fg-subheading{
-    font-size: 2rem;
+    font-size: 1rem;
+    font-weight: normal;
     color: #0B0223;
 }
 
@@ -172,13 +164,11 @@ ul li{
     margin-left: 10px;
     width: 252px;
     height: 200px;
-
 }
 
 .gameimg{
 
     position: relative;
-
 }
 
 .game-image:hover{
@@ -210,14 +200,12 @@ ul li{
     bottom: calc(50% - 24px);
     width: 48px;
     height: 48px;
-
 }
 
 
 .gameimg:hover .hovericon{
     opacity: 1;
     transition: 500ms;
-
 }
 
 
@@ -233,14 +221,11 @@ ul li{
     margin: 30px auto;
     width: 1200px;
     height: 40%;
-
-
 }
 
 .game-image{
     width: 302px;
     height: 400px;
-
 }
 
 .game-image img{
@@ -262,8 +247,6 @@ ul li{
 .display-text-container{
     width: 401px;
     height: 280px;
-
-
 }
 
 .display-title{
@@ -305,7 +288,6 @@ ul li{
     display: flex;
     justify-content: space-around;
     align-items: center;
-
 }
 
 .display-image1{
@@ -318,8 +300,32 @@ ul li{
     position: relative;
     bottom: 220px;
     left: 350px;
+}
+
+.display-text-container1{
+    width: 401px;
+    height: 280px;
+}
+
+.display-title1{
+    font-size: 2rem;
+    text-align: center;
 
 }
+
+.display-heading1{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+
+.display-text-container1 p{
+    margin-top: 20px;
+}
+
+
 
 
 /* Icons Images Container Styles */
@@ -327,8 +333,6 @@ ul li{
 .icons-container{
     text-align: center;
     background: linear-gradient(45deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    width: 100%;
-    height: 30vh;
     display: flex;
     flex-wrap: wrap;
 
@@ -344,8 +348,6 @@ ul li{
     align-items: center;
     background-color: #FFF;
     border-radius: 40px;
-    padding-left: 10px;
-    padding-top: 30px;
 
 }
 
@@ -376,7 +378,7 @@ ul li{
     padding-right: 10px;
 }
 
-.icon-iamge img{
+.icon-image img{
     border-radius: 10px;
     background: white;
     transition: color 0.5s;
